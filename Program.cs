@@ -14,6 +14,7 @@ public static class Program
         }
 
         WriteLine(GetBot(message));
+		WriteLine("**Sample Test CI / CD Program**");
         WriteLine("**Environment**");
         WriteLine($"Platform: .NET Core 2.0");
         WriteLine($"OS: {RuntimeInformation.OSDescription}");
